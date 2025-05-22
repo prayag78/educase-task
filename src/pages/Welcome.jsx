@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -13,9 +13,16 @@ const Welcome = () => {
 
         <Link
           to="/signup"
-          className="block w-full font-bold text-center py-3 focus:ring-[#6C25FF] text-white rounded-lg"
+          className="block w-full font-bold text-center py-3 bg-[#6C25FF] text-white rounded-lg"
         >
           Create Account
+        </Link>
+
+        <Link
+          to="/signin"
+          className="block w-full font-bold text-center py-3 bg-[#6C25FF4B] text-black rounded-lg"
+        >
+          Already Registered? Login
         </Link>
       </div>
     </div>

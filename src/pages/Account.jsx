@@ -29,7 +29,7 @@ const Account = () => {
       </div>
       <div className="flex gap-4 px-[38px] py-4">
         <div className="relative">
-          <FaCamera className="bg-[#6C25FF] absolute right-0 bottom-0 text-2xl cursor-pointer" />
+          <FaCamera className="text-[#6C25FF] absolute right-0 bottom-0 text-2xl cursor-pointer" />
           <img
             src={profile}
             alt="Profile"
